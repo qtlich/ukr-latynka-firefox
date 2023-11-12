@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Ukrajins'ka latynka",
+    "version": "0.1.0",
+  
+    "description": "Транслітератор з кирилиці на латинку Максима Прудеуса або навпаки.",
+  
+    "icons": {
+      "48": "icons/48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["src/main.js"]
+      }
+    ]
+}
